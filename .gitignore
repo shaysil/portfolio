@@ -8,3 +8,9 @@ desktop.ini
 .idea/
 *.swp
 *~
+
+# Dependencies
+node_modules/
+
+# Local tooling
+.playwright-mcp/
