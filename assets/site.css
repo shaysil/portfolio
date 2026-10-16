@@ -156,8 +156,13 @@ main:focus { outline: none; }
   width: min(520px, 66%); height: auto; aspect-ratio: 1; transform: translateY(-46%);
 }
 .hero__photo {
-  position: absolute; inset: 0; width: 100%; height: 100%;
-  object-fit: cover; object-position: 70% 20%; filter: grayscale(1) contrast(1.05);
+  position: absolute; top: 50%; right: max(4%, calc((100vw - var(--wrap)) / 2 - 40px));
+  width: min(560px, 68%); height: auto; aspect-ratio: 1; object-fit: cover;
+  transform: translateY(-44%);
+  filter: saturate(.85) contrast(1.05);
+  /* Melt the square photo into the black panel */
+  -webkit-mask-image: radial-gradient(closest-side, #000 62%, transparent 100%);
+          mask-image: radial-gradient(closest-side, #000 62%, transparent 100%);
 }
 .hero__content {
   position: relative; z-index: 1;
@@ -374,7 +379,7 @@ main:focus { outline: none; }
     position: relative; width: 100%; height: clamp(420px, 78svh, 640px);
     clip-path: none;
   }
-  .hero__art { right: 50%; top: 44%; width: min(380px, 88%); transform: translate(50%, -50%); }
+  .hero__photo { right: 50%; top: 46%; width: min(400px, 96%); transform: translate(50%, -50%); }
   .hero__content {
     margin-top: -150px; padding: 78px var(--gutter) 34px;
     display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: end;

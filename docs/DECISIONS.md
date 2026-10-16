@@ -24,3 +24,4 @@
 | 20 | Hero uses SVG line-art instead of a portrait; optional assets/photo.jpg later | User's choice; no photo provided |
 | 21 | Template's contact form replaced with LinkedIn/GitHub buttons | No backend; email excluded from the page |
 | 22 | Template's portfolio grid becomes Achievements (awards/certs/education) with filter tabs; no stock photos | No project portfolio chosen; avoid template imagery |
+| 23 | Hero uses the LinkedIn profile photo (800px, from the user's own profile) as a faded circular portrait in the black panel | User request; full-bleed crop was upscaled and clashed with the nav blend |
