@@ -1,16 +1,13 @@
 {
   "name": "portfolio",
   "private": true,
-  "version": "1.0.0",
-  "description": "Shay Silberstein portfolio, Material Design 3 with Material Web components",
+  "version": "2.0.0",
+  "description": "Shay Silberstein portfolio, static single page (no build step)",
   "type": "module",
   "scripts": {
-    "theme": "esbuild scripts/theme.mjs --bundle --platform=node --format=esm --log-level=warning --outfile=node_modules/.cache/theme.mjs && node node_modules/.cache/theme.mjs",
-    "build": "esbuild src/material.js --bundle --minify --format=esm --outfile=assets/material.js"
+    "icons": "node scripts/icons.mjs"
   },
   "devDependencies": {
-    "@material/material-color-utilities": "0.4.0",
-    "@material/web": "2.5.0",
-    "esbuild": "0.28.2"
+    "simple-icons": "16.35.0"
   }
 }

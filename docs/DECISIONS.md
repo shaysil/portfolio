@@ -19,3 +19,8 @@
 | 15 | Added the full education list, Languages, and an Achievements section (hackathon win) | User asked for a full LinkedIn re-read; the user confirmed the hackathon win (2026-10-16) |
 | 16 | About text rewritten to use the name instead of "he/his" | Pronouns not stated; don't infer them from a name |
 | 17 | LinkedIn has no About, Skills (page never loaded), Honors, Projects, Volunteering or Recommendations content; skills chips unchanged | Nothing to source |
+| 18 | Redesign to match the Figma Community template "Portfolio - Tomasz Gajda"; spec in docs/DESIGN.md | User request (2026-10-16) |
+| 19 | Material Web removed; plain HTML/CSS + small vanilla JS | User confirmed; the template's look isn't Material |
+| 20 | Hero uses SVG line-art instead of a portrait; optional assets/photo.jpg later | User's choice; no photo provided |
+| 21 | Template's contact form replaced with LinkedIn/GitHub buttons | No backend; email excluded from the page |
+| 22 | Template's portfolio grid becomes Achievements (awards/certs/education) with filter tabs; no stock photos | No project portfolio chosen; avoid template imagery |

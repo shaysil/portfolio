@@ -6,17 +6,18 @@ A short, single-page portfolio for **Shay Silberstein**, Senior AI Engineer at P
 
 ## Preview locally
 
-Serve the folder with any static server (for example `python -m http.server`) and open it in a browser. The page is built with Material Design 3 and Google's [Material Web](https://github.com/material-components/material-web) components, bundled into `assets/material.js`. Content stays readable without JavaScript.
+Serve the folder with any static server (for example `python -m http.server`) and open it in a browser. The page is plain HTML (`index.html`), CSS (`assets/site.css`) and a small vanilla script (`assets/site.js`) for the mobile menu and the achievements filter. Its monochrome look is adapted from the "Tomasz Gajda" Figma Community portfolio template (see `docs/DESIGN.md`). Everything stays readable without JavaScript.
 
 ## Development
 
+No build step: GitHub Pages serves the files as they are. The only tooling is the brand-logo copier:
+
 ```sh
-npm install      # Material Web, esbuild, material-color-utilities (pinned devDependencies)
-npm run theme    # regenerate assets/theme.css (M3 light + dark color tokens) from the seed color #2a4bc4
-npm run build    # bundle the components imported in src/material.js into assets/material.js
+npm install      # simple-icons (pinned devDependency)
+npm run icons    # copy the brand SVGs listed in scripts/icons.mjs into assets/icons/, in brand colours
 ```
 
-`npm run theme -- "#123456"` uses a different seed color. The built `assets/material.js` and `assets/theme.css` are committed so GitHub Pages can serve them without a build step.
+The generated `assets/icons/*.svg` files are committed. Line icons, the SS monogram and the flags are inline SVG in `index.html`. To show a photo in the hero, add `assets/photo.jpg` and follow the comment in the hero markup.
 
 ## About
 
