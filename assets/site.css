@@ -157,7 +157,7 @@ main:focus { outline: none; }
 }
 .hero__photo {
   position: absolute; top: 50%; right: max(4%, calc((100vw - var(--wrap)) / 2 - 40px));
-  width: min(560px, 68%); height: auto; aspect-ratio: 1; object-fit: cover;
+  width: min(560px, 68%); height: auto; aspect-ratio: 1; object-fit: cover; object-position: 40% 40%;
   transform: translateY(-44%);
   filter: saturate(.85) contrast(1.05);
   /* Melt the square photo into the black panel */
