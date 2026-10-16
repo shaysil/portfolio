@@ -16,3 +16,6 @@
 | 12 | M3 color scheme generated from seed #2a4bc4 with the default "tonal spot" scheme (primary = muted indigo) | M3 default; keeps every container pair at about 7:1 contrast. "Fidelity" would keep the exact seed color but drop to about 4.5:1 |
 | 13 | Cards built from M3 surface tokens + `md-elevation` | Material Web has no card component |
 | 14 | Proportional timeline bars removed; all dates kept in cards | Cleaner M3 card layout |
+| 15 | Added the full education list, Languages, and an Achievements section (hackathon win) | User asked for a full LinkedIn re-read; the user confirmed the hackathon win (2026-10-16) |
+| 16 | About text rewritten to use the name instead of "he/his" | Pronouns not stated; don't infer them from a name |
+| 17 | LinkedIn has no About, Skills (page never loaded), Honors, Projects, Volunteering or Recommendations content; skills chips unchanged | Nothing to source |

@@ -31,7 +31,13 @@ at **https://shaysil.github.io/portfolio/**.
 - Name: Shay Silberstein (Hebrew: שי זילברשטיין). Location: Israel.
 - Headline: **Senior AI Engineer at Palo Alto Networks**.
 - LinkedIn: https://www.linkedin.com/in/shay-silberstein-4496a060 · GitHub: https://github.com/shaysil
-- Education: **Sela College** (degree/dates not listed — show the institution name only).
+- Education (LinkedIn, re-read 2026-10-16):
+  - Sela College: Software Developer program, 2015–2016
+  - MLA – The Center of Academic Studies: B.A., Business, Management & Information Systems, 2012–2014
+  - MATI Holon (מת"י חולון): Small Business Development course, 2014
+- Languages: Hebrew, English.
+- Achievement (confirmed by the user): on the winning team of the Microsoft-hosted "Innovate with AI Agents: The Race to Win" (Microsoft 365 Copilot agents), Sep 2025.
+- Pronouns: not stated. Write about Shay by name, never "he/she".
 
 **Experience** (from LinkedIn, newest first)
 | Dates | Role | Organization | Notes |
@@ -63,7 +69,6 @@ You may merge the overlapping Guardian/Malam/SootBox roles visually, but keep th
 **Excluded on purpose (do not use):**
 - LinkedIn "Open to work" status. It is private ("visible only to you").
 - Political or other reposts.
-- A Microsoft 365 Copilot agents hackathon win (Sep 2025). That post was a repost from a colleague and doesn't confirm Shay was on the winning team.
 - Kids' learning apps (grade3 / Gimel3). Personal projects, not professional.
 - Email address, phone, and follower counts.
 
