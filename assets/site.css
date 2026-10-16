@@ -376,10 +376,10 @@ main:focus { outline: none; }
 
   .hero { display: block; min-height: 0; background: #000; }
   .hero__panel {
-    position: relative; width: 100%; height: clamp(420px, 78svh, 640px);
+    position: relative; width: 100%; height: clamp(300px, 55svh, 450px);
     clip-path: none;
   }
-  .hero__photo { right: 50%; top: 46%; width: min(400px, 96%); transform: translate(50%, -50%); }
+  .hero__photo { right: 50%; top: 44%; width: min(280px, 68%); transform: translate(50%, -50%); }
   .hero__content {
     margin-top: -150px; padding: 78px var(--gutter) 34px;
     display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: end;
