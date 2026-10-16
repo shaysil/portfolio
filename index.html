@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shay Silberstein · Senior AI Engineer</title>
+<meta name="description" content="Shay Silberstein, Senior AI Engineer at Palo Alto Networks. About 18 years turning business needs into enterprise solutions, from SharePoint portals to AI agents.">
+<meta name="author" content="Shay Silberstein">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f2f4f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#11151b" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="https://shaysil.github.io/portfolio/">
+<meta property="og:type" content="profile">
+<meta property="og:url" content="https://shaysil.github.io/portfolio/">
+<meta property="og:title" content="Shay Silberstein · Senior AI Engineer">
+<meta property="og:description" content="About 18 years turning business needs into enterprise solutions, from SharePoint portals to AI agents.">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232a4bc4'/%3E%3Ctext x='32' y='43' font-family='Arial,Helvetica,sans-serif' font-size='30' font-weight='700' fill='%23fff' text-anchor='middle' letter-spacing='-1'%3ESS%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f2f4f7;--surface:#ffffff;--ink:#141b24;--muted:#4b5665;--rule:#d6dce4;
+  --accent:#2a4bc4;--accent-soft:#dfe5fa;--track:#e3e8ee;
+  --font:"Schibsted Grotesk",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#11151b;--surface:#181d25;--ink:#e7ebf1;--muted:#a3adba;--rule:#2b333e;
+    --accent:#93a9ff;--accent-soft:#23304f;--track:#252c37;}
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.6 var(--font);
+  -webkit-font-smoothing:antialiased;overflow-wrap:break-word}
+a{color:var(--accent);text-underline-offset:.2em;text-decoration-thickness:1px}
+a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:4px}
+.skip{position:absolute;left:-999px;top:0}
+.skip:focus{left:16px;top:16px;background:var(--surface);padding:.5rem .75rem;z-index:2}
+.wrap{max-width:68rem;margin:0 auto;padding:0 clamp(16px,5vw,48px)}
+
+/* Hero */
+header.wrap{padding-top:clamp(3.5rem,11vw,8rem);padding-bottom:clamp(2.5rem,7vw,4.5rem)}
+
+.he{display:block;text-align:left;margin:0 0 .75rem;color:var(--muted);font-size:1rem;font-weight:500}
+h1{margin:0;font-size:clamp(2.6rem,9.5vw,6.25rem);line-height:.95;font-weight:700;letter-spacing:-.045em}
+.role{margin:1.25rem 0 0;font-size:clamp(1.15rem,2.6vw,1.5rem);font-weight:500;letter-spacing:-.01em}
+.pitch{margin:.6rem 0 0;max-width:36em;color:var(--muted);font-size:clamp(1.05rem,2vw,1.2rem)}
+.links{display:flex;flex-wrap:wrap;gap:.75rem;margin:2rem 0 0;padding:0;list-style:none}
+.btn{display:inline-flex;align-items:center;gap:.55rem;padding:.7rem 1.15rem;border-radius:999px;
+  border:1.5px solid var(--ink);color:var(--ink);text-decoration:none;font-weight:600;font-size:.98rem;line-height:1}
+.btn svg{width:18px;height:18px;fill:currentColor;flex:none}
+.btn:hover{background:var(--ink);color:var(--bg)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--bg)}
+.btn.primary:hover{background:var(--ink);border-color:var(--ink)}
+
+/* Sections */
+main section{display:grid;grid-template-columns:13rem minmax(0,1fr);gap:1rem 3rem;
+  padding:clamp(2.5rem,6vw,4rem) 0;border-top:1px solid var(--rule)}
+h2{margin:0;font-size:1.05rem;font-weight:600;letter-spacing:-.005em;color:var(--ink)}
+.about p{margin:0;max-width:38em;font-size:clamp(1.1rem,2vw,1.25rem);line-height:1.6}
+
+/* Experience: vertical list with a proportional span bar per role */
+.axis,.job{display:grid;grid-template-columns:minmax(0,1fr) 15rem;gap:.35rem 2rem;align-items:center}
+.axis{margin:0 0 .5rem;color:var(--muted);font-size:.8rem;font-variant-numeric:tabular-nums}
+.axis .scale{position:relative;height:1.2em;grid-column:2}
+.axis .scale span{position:absolute;transform:translateX(-50%)}
+.axis .scale span:first-child{transform:none}
+.axis .scale span:last-child{transform:translateX(-100%)}
+.jobs{list-style:none;margin:0;padding:0}
+.job{padding:1rem 0;border-top:1px solid var(--rule)}
+.job:first-child{border-top:0}
+.job h3{margin:0;font-size:1.06rem;font-weight:600;line-height:1.35}
+.job .org{font-weight:400;color:var(--muted)}
+.job .when{margin:.1rem 0 0;font-size:.92rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.job .note{margin:.3rem 0 0;font-size:.95rem;color:var(--muted);max-width:40em}
+.bar{position:relative;height:10px;border-radius:5px;background:var(--track)}
+.bar::after{content:"";position:absolute;top:0;bottom:0;left:var(--s);width:calc(var(--e) - var(--s));
+  min-width:5px;border-radius:5px;background:var(--accent)}
+.job.now .bar::after{box-shadow:0 0 0 3px var(--accent-soft)}
+
+/* Skills */
+.groups{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2rem 2.5rem}
+.groups h3{margin:0 0 .7rem;font-size:.98rem;font-weight:600}
+.chips{display:flex;flex-wrap:wrap;gap:.45rem;margin:0;padding:0;list-style:none}
+.chips li{padding:.3rem .7rem;border-radius:6px;background:var(--surface);border:1px solid var(--rule);
+  font-size:.9rem;line-height:1.35}
+
+/* Certifications */
+.certs{list-style:none;margin:0;padding:0}
+.certs li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.2rem 1.5rem;padding:.8rem 0;border-top:1px solid var(--rule)}
+.certs li:first-child{border-top:0;padding-top:0}
+.certs b{font-weight:600}
+.certs .by{color:var(--muted)}
+.certs time,.certs .tag{color:var(--muted);font-size:.92rem;font-variant-numeric:tabular-nums;white-space:nowrap}
+.edu{margin:1.5rem 0 0;color:var(--muted);font-size:.95rem}
+
+/* Footer */
+footer{border-top:1px solid var(--rule);padding:2rem 0 3rem;color:var(--muted);font-size:.92rem}
+footer .wrap{display:flex;flex-wrap:wrap;gap:.5rem 1.5rem;align-items:baseline;justify-content:space-between}
+footer p{margin:0}
+footer nav{display:flex;gap:1.25rem}
+
+@media (max-width:860px){
+  main section{grid-template-columns:minmax(0,1fr)}
+  .axis,.job{grid-template-columns:minmax(0,1fr)}
+  .axis .scale{grid-column:1}
+  .job .bar{margin-top:.5rem}
+}
+@media (max-width:560px){
+  .groups{grid-template-columns:minmax(0,1fr)}
+  .certs li{grid-template-columns:minmax(0,1fr)}
+}
+@media print{.btn{border-color:#000}body{background:#fff}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="wrap">
+  <span class="he" lang="he" dir="rtl">שי זילברשטיין</span>
+  <h1>Shay Silberstein</h1>
+  <p class="role">Senior AI Engineer · Palo Alto Networks</p>
+  <p class="pitch">~18 years turning business needs into enterprise solutions, from SharePoint portals to AI agents. Based in Israel.</p>
+  <ul class="links">
+    <li><a class="btn primary" href="https://www.linkedin.com/in/shay-silberstein-4496a060" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>LinkedIn</a></li>
+    <li><a class="btn" href="https://github.com/shaysil" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.6 18.3 5 18.3 5c.7 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3"/></svg>GitHub</a></li>
+  </ul>
+</header>
+
+<main id="main" class="wrap">
+  <section class="about" aria-labelledby="h-about">
+    <h2 id="h-about">About</h2>
+    <p>Shay started out applying SharePoint during his military service, then spent the following years building enterprise portals, workflows and forms, eventually leading a SharePoint implementation team. In 2018 he joined CyberArk as a Business Solutions Manager and stayed for more than seven years. Since late 2025 he has worked as a Senior AI Engineer, now at Palo Alto Networks.</p>
+  </section>
+
+  <section aria-labelledby="h-exp">
+    <h2 id="h-exp">Experience</h2>
+    <div>
+      <div class="axis" aria-hidden="true"><span></span><div class="scale"><span style="left:0">2008</span><span style="left:31.9%">2014</span><span style="left:63.7%">2020</span><span style="left:100%">2026</span></div></div>
+      <ol class="jobs">
+        <li class="job now"><div><h3>Senior AI Engineer <span class="org">at Palo Alto Networks</span></h3><p class="when">Feb 2026 – Present</p><p class="note">Continued in the role after Palo Alto Networks acquired CyberArk.</p></div><div class="bar" style="--s:96%;--e:100%" aria-hidden="true"></div></li>
+        <li class="job"><div><h3>Senior AI Engineer <span class="org">at CyberArk</span></h3><p class="when">Oct 2025 – Feb 2026</p><p class="note">Moved into AI engineering.</p></div><div class="bar" style="--s:94.2%;--e:96%" aria-hidden="true"></div></li>
+        <li class="job"><div><h3>Business Solutions Manager <span class="org">at CyberArk</span></h3><p class="when">Sep 2018 – Dec 2025</p><p class="note">7+ years. Microsoft Azure, monday.com and project management.</p></div><div class="bar" style="--s:56.6%;--e:95.1%" aria-hidden="true"></div></li>
+        <li class="job"><div><h3>SharePoint Implementation Team Leader <span class="org">at Malam, Petah Tikva</span></h3><p class="when">Apr 2016 – Sep 2018</p><p class="note">Microsoft 365.</p></div><div class="bar" style="--s:43.8%;--e:56.6%" aria-hidden="true"></div></li>
+        <li class="job"><div><h3>SharePoint Solutions Expert <span class="org">at Guardian Information Systems</span></h3><p class="when">Dec 2013 – Sep 2018</p><p class="note">SharePoint 2007/2010/2013: complex workflows in SharePoint Designer and Nintex, InfoPath web forms, Search Center refiners, JavaScript and jQuery.</p></div><div class="bar" style="--s:31.4%;--e:56.6%" aria-hidden="true"></div></li>
+        <li class="job"><div><h3>SharePoint Implementation Expert &amp; Website Builder <span class="org">at SootBox</span></h3><p class="when">Sep 2013 – Nov 2014</p></div><div class="bar" style="--s:30.1%;--e:36.3%" aria-hidden="true"></div></li>
+        <li class="job"><div><h3>SharePoint Implementer <span class="org">at Excellence Nessuah Investment House</span></h3><p class="when">May 2011 – Apr 2013</p><p class="note">Enterprise portal on SharePoint 2010, from requirements through UI design and rollout.</p></div><div class="bar" style="--s:17.7%;--e:27.9%" aria-hidden="true"></div></li>
+        <li class="job"><div><h3>SharePoint, applied <span class="org">at Israel Defense Forces</span></h3><p class="when">May 2008 – May 2011</p><p class="note">Military service.</p></div><div class="bar" style="--s:1.8%;--e:17.7%" aria-hidden="true"></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-skills">
+    <h2 id="h-skills">Skills</h2>
+    <div class="groups">
+      <div><h3>AI engineering</h3><ul class="chips"><li>AI agents</li><li>Claude Code</li><li>Model Context Protocol (MCP)</li><li>Google ADK / GCP agents</li><li>Microsoft 365 Copilot agents</li><li>Prompt engineering</li></ul></div>
+      <div><h3>Microsoft 365</h3><ul class="chips"><li>SharePoint (2007–Online)</li><li>SPFx</li><li>Microsoft Teams apps</li><li>Power Apps</li><li>Nintex</li><li>InfoPath</li><li>Microsoft Azure</li></ul></div>
+      <div><h3>Languages and web</h3><ul class="chips"><li>TypeScript</li><li>JavaScript</li><li>Python</li><li>React</li><li>Angular</li><li>HTML/CSS</li><li>jQuery</li></ul></div>
+      <div><h3>Delivery</h3><ul class="chips"><li>Business solutions management</li><li>Project management</li><li>monday.com</li><li>Requirements to rollout</li><li>Team leadership</li></ul></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-certs">
+    <h2 id="h-certs">Certifications &amp; learning</h2>
+    <div>
+      <ul class="certs">
+        <li><span><b>Claude Code in Action</b> <span class="by">Anthropic, via LinkedIn Learning</span></span><time datetime="2026-07">Jul 2026</time></li>
+        <li><span><b>Enterprise Product Management Fundamentals</b> <span class="by">Microsoft</span></span><time datetime="2026-05">May 2026</time></li>
+        <li><span><b>Project Management with monday.com</b> <span class="by">LinkedIn Learning</span></span><time datetime="2025-01">Jan 2025</time></li>
+        <li><span><b>10X AI-development course</b> <span class="by">This page is the lesson 8 project</span></span><span class="tag">In progress</span></li>
+      </ul>
+      <p class="edu">Education: Sela College</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>© 2026 Shay Silberstein. Built with Claude Code.</p>
+    <nav aria-label="Profiles"><a href="https://www.linkedin.com/in/shay-silberstein-4496a060" target="_blank" rel="noopener">LinkedIn</a><a href="https://github.com/shaysil" target="_blank" rel="noopener">GitHub</a></nav>
+  </div>
+</footer>
+</body>
+</html>
